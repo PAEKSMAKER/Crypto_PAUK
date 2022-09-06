@@ -1,0 +1,4 @@
+This is code of PAUK scheme and other compared schemes.
+
+The code relies on the Crypto, GMP，PBC libraries and can only run in Linux system, preferably Ubuntu.
+
