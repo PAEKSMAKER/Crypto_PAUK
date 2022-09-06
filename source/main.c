@@ -12,31 +12,7 @@
 int main()
 {	
 	double time_setup;
-	
-	getTimePoint_Info();
-	int timePointYear = getTimePoint_Year(0);
-	int timePointDay = getTimePoint_Day(0);
-	int timePointHour = getTimePoint_Hour(0);
-	int timePointMinute = getTimePoint_Minute(0);
-	int timePointSecond = getTimePoint_Second(0);
-	theSet *zeroSet;
-	theSet *oneSet;
-	
-	
-	zeroSet = zero_Encoding(timePointYear);
-	
-	zeroSet = zero_Encoding(timePointDay);
-	zeroSet = zero_Encoding(timePointHour);
-	
-	zeroSet = zero_Encoding(timePointSecond);
-	
-	oneSet = one_Encoding(timePointSecond);
-	
-	int sameInteger = findSameElement(zeroSet, oneSet);
-	printf("The same integer is %d\n", sameInteger);
-	
-	
-	
+		
 	time_setup = pbc_get_time();
 	
 	
